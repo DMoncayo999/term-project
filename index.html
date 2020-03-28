@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Home Page">
+<meta name="author" content="Delfina Moncayo">
+
+
+<title>Home</title>
+
+<link href="favicon.ico" rel="shortcut icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- Font Style -->
+<link href="https://fonts.googleapis.com/css?family=Gotu%7CMontserrat%7CShadows+Into+Light&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+<!--<script src="js/weatherapi.js" ></script>-->
+<script src="js/scripts.js" ></script>
+<script>
+ const weatherapiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83549,US&APPID=e133193565792698f423478349cebc85&units=imperial";  
+const callbacks = [ populateWeather ];
+</script>
+     
+</head>
+<body>
+<!-- HEADER-->
+<div id="headerWrapper">
+	<header class="clearfix">
+        <img src="images/logosalmon.png" alt="river lanscape">
+    <div>
+        <h1>Salmon River Adventures</h1>
+        <h2>Where fun is natural</h2>
+    </div>
+    </header>
+</div>    
+    
+<!-- NAVIGATION -->
+<div id="navWrapper">
+    <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="guides.html">River Guide</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>  
+    </ul>
+    </nav>
+</div>
+      
+<!-- CONTENT -->
+<main>
+<section id="hero">
+    <div class="herodiv">
+        <picture class="heroPhoto">
+            <source media="(max-width: 200px)" srcset="images/herosalmon200.jpg"> 
+            <source media="(max-width: 500px)" srcset="images/herosalmon500.jpg">
+            <source media="(max-width: 800px)" srcset="images/herosalmon800.jpg">
+            <img src="images/herosalmonPhoto.jpeg" alt="river overview">         
+        </picture>  
+    </div>
+</section>
+  
+<section class= "tripswrap">   
+    <div><h2>Activities</h2></div> 
+ <div class="trips">
+    <div>
+    <p>You can enjoy the nature and adventure in one place. We want your stay here be unforgetable <br/>
+        Let us guide you to get the best of Salmo River Adventures</p>
+    <img src="images/fishing300.jpg" alt="man fishing in a river"/></a></p>
+    </div>
+   
+    <div>
+     <p>You can enjoy the nature and adventure in one place. We want your stay here be unforgetable <br/>
+        Let us guide you to get the best of Salmo River Adventures</p>
+     <img src="images/kayak300.jpg" alt="person in a kayak"/></a></p>
+    </div>
+
+    <div>
+    <p>You can enjoy the nature and adventure in one place. We want your stay here be unforgetable <br/>
+        Let us guide you to get the best of Salmo River Adventures</p>
+    <img src="images/rafting300.jpg" alt="man rafting"/></a></p>
+    </div>
+ </div>
+</section>
+
+<section class="currentweather">
+            <p><span id="name"></span></p>
+            <p><span id="description"></span></p>
+            <p><span id="icon"></span></p>
+            <p><span id="temperature"></span>&deg;F</p>
+        </section>
+    </div>   
+</section>
+
+
+
+<section id="contact">
+    <div class="contactInfo">
+	<div>
+		<p> &#128205; <span>Address:</span> 1000 S Main St., Riggins, Id, 83549</p>
+        <p> &#9742; <span>Phone:</span> 555-234-9999</p>
+        <p> &#128231; <span>Email:</span> salmonriver@ gmail.com</p>
+        <div class= "mysocial">
+            <img src= "images/facebook48.png" alt="facebook social icon">
+            <img src= "images/instagram48.png" alt="instagram social icon">
+            <img src= "images/twitter48.png" alt="twitter social icon">
+            <img src= "images/whatsapp48.png" alt="whatsapp social icon">
+        </div>
+    </div>
+   
+</section>
+
+</main>  
+    
+<!-- FOOTER HERE --> 
+<div id="footerWrapper">  
+    <footer>
+        &copy; 2020 - Delfina Moncayo <br/><span>Last Updated:
+            <script> document.write( updateCurrentDate() ) </script></span>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script src="js/webfontload.js" ></script>
+</body>
+</html>
