@@ -6,7 +6,6 @@ function init() {
 }
 
 
-
 //toggle sandwiche menu
 function toggleMenu () {    
     document.getElementById("primaryNav").classList.toggle("hide"); 

@@ -26,6 +26,8 @@ nav ul li a {padding: .6rem 1rem;}
     padding-bottom: 0.5em;
  }
 
+
+
 div.townsInfo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,6 +45,7 @@ div.townsInfo section img {
 div.townsInfo :nth-child(2) :nth-child(4) {
   grid-area: 4 / 1 / 5 / 2;
 }
+
 
 .currentweather {
     width: 30%;

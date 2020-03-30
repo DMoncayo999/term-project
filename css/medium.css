@@ -31,8 +31,9 @@ nav ul li a {
  }
 /*----------- MAIN --------------*/
 
+
 .trips img {
-    width: 350px; 
+    width: 350px; height: 200px;
 }
 .trips {
     display: grid;
@@ -53,31 +54,23 @@ nav ul li a {
     letter-spacing: 0.2rem;
 }
 
-
-
 .currentweather {
     width: 45%;
     
 }
 
-.news {
+.reservInfo  {
      padding: 2%;
  } 
 
-.news img {
+.reservInfo img {
     width: 500px;
     margin: 0 2%;
     float: right;
     border: 1px;
     box-shadow: 0 0 15px gray;
-   
-}
-
-
-.contactInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+ }
+ 
 
 .contactInfo div {
     text-align: center;
@@ -85,24 +78,6 @@ nav ul li a {
     padding: 2%;
     
 }
-
-.contactInfo div img { 
-    display: block;
-    border:1px;
-    box-shadow: 0 0 10px gray;
-
-}
-
-.mysocial img {
-    border-radius: 40px;
-    width: 40px;        
-}
-
-
-
-
-
-
 
 /*----------- FOOTER --------------*/
 
