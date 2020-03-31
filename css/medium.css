@@ -30,7 +30,11 @@ nav ul li a {
         padding: .8rem 1rem;
  }
 /*----------- MAIN --------------*/
-
+.textover p {
+    top: 55%;
+    font-size: 4rem;
+    padding: 3rem;
+}
 
 .trips img {
     width: 350px; height: 200px;

@@ -25,11 +25,6 @@ function toggleMenu () {
     return new Date().toLocaleDateString("en-Us", options)
 }
 
-//rating storm slider
-function adjustRating() {
-    document.getElementById("ratingvalue").innerHTML = document.getElementById("rating").value;
-}
-
 // GUIDES JSON FILE 
 let populateTowns = () => {
     // store the resource URL of the JSON
@@ -72,7 +67,7 @@ let populateTowns = () => {
       .catch( error => console.log(error) );
 }
 
-let eventsPreston = () => {
+/*let eventsPreston = () => {
  
   const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
@@ -98,5 +93,6 @@ let eventsPreston = () => {
       }
     })
     .catch( error => console.log(error) );
-}
+} 
 
+*/
