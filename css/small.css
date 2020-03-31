@@ -101,8 +101,8 @@ picture.heroPhoto img {
     color: white;
     text-shadow: 5px 5px 5px #000000;
     letter-spacing: 0.1rem;
-    top: 50%;
-    padding: 2rem;
+    top: 30%;
+    padding: .8rem;
     
 }
 
@@ -118,6 +118,7 @@ picture.heroPhoto img {
 }
 .inforiver p {
     line-height: 1.5em;
+    padding: 2%;
 }
 
 .trips div{
@@ -130,6 +131,7 @@ picture.heroPhoto img {
     letter-spacing: 0.2rem;
     padding: 0;
 }
+
 .trips img {
     box-shadow: 5px 2px 5px rgb(162, 173, 128);
     width: 100%;
