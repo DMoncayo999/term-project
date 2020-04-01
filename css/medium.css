@@ -63,18 +63,14 @@ nav ul li a {
     
 }
 
-.reservInfo  {
-     padding: 2%;
- } 
-
-.reservInfo img {
-    width: 500px;
-    margin: 0 2%;
-    float: right;
-    border: 1px;
-    box-shadow: 0 0 15px gray;
+.reservInfo p {
+    font-size: 3rem;
  }
- 
+
+ .formreserv form {
+    max-width: 50%;
+    
+ }
 
 .contactInfo div {
     text-align: center;

@@ -54,89 +54,55 @@
 <!-- CONTENT HERE -->
 <main>
 <section class="reservInfo">
-    <h2>6 Reasons to Drink Water</h2>
-    <img src="images/glasswater300.jpg" alt="refreshing glass of water">
-    <p>Americans seem to carry bottled water everywhere they go these days. In fact, it has become the 
-    second most popular drink (behind soft drinks). But water lovers got a jolt recently when we heard 
-    that a new report had found that the benefits of drinking water may have been oversold. Apparently, 
-    the old suggestion to drink eight glasses a day was nothing more than a guideline, not based on 
-    scientific evidence.<br/><br/></p>
+    <h2>Reservations</h2>
 </section>
 
 <section class="formreserv">
     <form method="get">
-        <fieldset>
-         <legend>Your Information</legend>
-             <label class="top">Full Name* <input type="text" name="fname" required></label>
-             <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-             <label class="top">Zip Code* <input type="number" name="num" required></label>
-             <label class="top">EMail <input type="email" name="email" placeholder="someone@gmail.com"></label>
-         </fieldset>
-
-         <fieldset>
-         <legend>Storm Details</legend>
-             <label class="top">Storm Date<input type="date" name="completedate"></label>
-             <label class="top">Storm Type<input list="types">
+       
+             <label class="reserve">Full Name* <input type="text" name="fname" required></label>
+             <label class="reserve">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+             <label class="reserve">EMail* <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                 
+             <label class="reserve">Start Trip Date<input type="date" name="completedate"></label>
+             <label class="reserve">End Trip Date<input type="date" name="completedate"></label>
+             <label class="reserve">Activity/Trip<input list="types">
                  <datalist id="types">
-                 <option value="Flash Flood">
-                 <option value="Hail">
-                 <option value="Hurricane">
-                 <option value="Thunder Storm">
-                 <option value="Tornado">
+                 <option value="Canoeing">
+                 <option value="Kayaking">
+                 <option value="Rafting">
                  </datalist>
              </label>
-             
-             <label class="slider" for="rating">Storm Severity:(1 to 10)<br/><br/><input type="range" id="rating" value="1" min="1" max="10" 
-                 step="1" list="tickmarks" oninput="adjustRating()" onchange="adjustRating()">
-                 <span id="ratingvalue"></span>
-             </label>
-             <datalist id="tickmarks">
-                 <option value="0">
-                 <option value="1">
-                 <option value="2">
-                 <option value="3">
-                 <option value="4">
-                 <option value="5">
-                 <option value="6">
-                 <option value="7">
-                 <option value="8">
-                 <option value="9">
-                 <option value="10">
-             </datalist>
-
-             <label class="top">Storm Region<select name="region">
-                     <option value="">Select Region</option>
-                     <option value="haven"> Fish Haven</option>
-                     <option value="preston">Preston Town</option>
-                     <option value="spring">Soda Spring</option>
-                     </select>
-             </label>
-
-             <div>Are you in danger?</div>
-             <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-             <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-             <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
-         </fieldset>
-
-         <fieldset>
-             <legend>Additional Information</legend>
-             
-             <label class="top">Write your comments here<br/>
+               
+             <label class="reserve">Your comments here<br/>
                  <textarea rows="4" cols="50" placeholder=""></textarea>
              </label>
-         </fieldset>
-
-         <input type="submit" value="Send My Report" class="submitBtn">
+         
+         <input class="reservBtn" type="submit" value="Start your adventure">
  </form> 
-
 </section>
 
+<section class="reservInfo">
+        <p>We look forward to seeing you
+        soon!<br/></p>
+</section>
+
+<section id="foothero">
+    <div class="footherodiv">
+        <picture class="footheroPhoto">
+            <source media="(max-width: 200px)" srcset="images/footerphoto300.jpg"> 
+            <source media="(max-width: 500px)" srcset="images/footerphoto500.jpg">
+            <source media="(max-width: 800px)" srcset="images/footerphoto800.jpg">
+            <img src="images/footerPhoto.jpeg" alt="kayaking under a cave">         
+        </picture> 
+    </div>
+</section>
 </main>
     
 <!-- FOOTER HERE --> 
 <div id="footerWrapper">  
     <footer>
-        &copy; 2020 - Delfina Moncayo - Source: <a href="https://openweathermap.org/">Open Weather Map</a><br/><span>Last Updated:
+        &copy; 2020 - Delfina Moncayo <br/><span>Last Updated:
             <script> document.write( updateCurrentDate() ) </script></span>
     </footer>
 </div>

@@ -5,7 +5,6 @@ function init() {
     callbacks.forEach( f => f() );
 }
 
-
 //toggle sandwiche menu
 function toggleMenu () {    
     document.getElementById("primaryNav").classList.toggle("hide"); 

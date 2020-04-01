@@ -12,6 +12,7 @@ nav ul li a {padding: .6rem 1rem;}
 
 /*----------- MAIN --------------*/
 
+
 .trips img {
     width: 100%; 
 }
@@ -54,9 +55,7 @@ div.townsInfo :nth-child(2) :nth-child(4) {
 
 /*-----------FORM-------*/
 
-form label.sbs {
-    padding: .4rem 0;
-} 
+
 
 /*----json HOME PAGE -------*/
 

@@ -93,6 +93,7 @@ picture.heroPhoto img {
     width:100%;
     padding-bottom: 5%;
 }
+
 .textover p {
     position: absolute;
     font-family: Shadows Into Light, cursive;
@@ -108,6 +109,7 @@ picture.heroPhoto img {
 
 .inforiver h2 {
     padding-left: 1.5rem;
+    margin-bottom: .5rem;
     font-family: Montserrat, sans-serif;
     color:#176E7A;
     font-size: 2rem;
@@ -119,6 +121,7 @@ picture.heroPhoto img {
 .inforiver p {
     line-height: 1.5em;
     padding: 2%;
+    margin-top:0;
 }
 
 .trips div{
@@ -192,7 +195,7 @@ picture.heroPhoto img {
 }
 .mysocial img {
     padding: 5px;
-    width: 35px;
+    width: 45px;
 }
 
 /*----------- FORM CONTACT US --------------*/
@@ -205,7 +208,8 @@ picture.heroPhoto img {
     padding: 2%; 
 }
 .formcontact form {
-    padding: 5%;
+    padding: 1.5rem;
+    margin: 2%;
 }
 .formcontact span {
     color: black;
@@ -244,12 +248,13 @@ form label.contact input {
 }
 section.map {
     padding: 3%;
+    background-color: rgb(110, 108, 107);
 }
-section h2 {
+section.map h2 {
     color: #9c2c13;
     font-size: 1rem;
-    padding: 2%
-    
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+     
 }
 
 /*----------- TABLE ACTIVITIES --------------*/
@@ -304,37 +309,43 @@ thead th{
 
 
 /*----------- FORM RESERVATION --------------*/
-.reservInfo p {
-    line-height: 1.5em;
- }
- .reservInfo h2 {
+.reservInfo h2 {
     font-family: Montserrat, sans-serif;
     color:#176E7A;
     font-size: 2rem;
+    padding: 2%;
  }
-
-
-form fieldset {
-    margin: 2rem .5rem;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
+.reservInfo p {
+    font-family: Shadows Into Light, cursive;
+    color: #533737;
+    font-size: 3rem;
+    text-align: center;
+ }
+ .footherodiv {
+    position: relative;
+    width: 100%;
+}
+picture.footheroPhoto img {
+    width:100%;
+    margin: 0;
+}
+.formreserv form {
+    padding: 1.5rem;
+    margin: 2%;
+    background-color: rgb(139, 96, 96);
+    max-width: 100%;
 }
 
-form legend {
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-
-form label.top, .slider, form div {
+form label.reserve {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    padding-left: 3rem;
+    color: rgb(17, 17, 17);
     font-size: .8rem;
+    
 }
 
-form label.top input, form label.top select {
+form label.reserve input {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -346,43 +357,18 @@ form label.top input, form label.top select {
     max-width: 20rem;
 }
 
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-input#rating{
-    width: 300px;
-}
-
-#ratingvalue {
-    margin: 0 15px;
-    color: #555;
-
-}
-
-form input.submitBtn {
+form input.reservBtn {
     border: none;
-    background-image: linear-gradient(to bottom right, yellow, #9c2c13);
+    background: #809b38;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-.submitBtn:hover {
-    box-shadow: -12px -12px 12px 0 rgba(255,255,255,1),
-    12px 12px 12px 0 rgba(0, 0, 0, 0.3);
-}
-form label.top input:required {
-    border-left: red solid 6px;
-}
+    margin: 1rem 10%;
+    width: 50%;
 
-form label.top input:required:valid {
-    border-left: green solid 6px;
-
+}
+.reservBtn:hover {
+    box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 /*------ JSON  GUIDES-------------*/
