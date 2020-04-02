@@ -248,7 +248,7 @@ form label.contact input {
 }
 section.map {
     padding: 3%;
-    background-color: rgb(110, 108, 107);
+    background-color: rgb(163, 162, 162);
 }
 section.map h2 {
     color: #9c2c13;
@@ -266,12 +266,13 @@ thead th{
          
    }
  
- table {
-     font-family: 'Ubuntu', serif;
-     border-collapse: collapse;
-     width: 305px;
-     box-shadow: 5px 10px 18px #628ca6;
-    
+div.active  {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-row-gap: 25px;
+     font-family: Guru, sans-serif;
+     
+     
    }
    
    td {
@@ -280,11 +281,7 @@ thead th{
      padding: 8px;
      
    }
-   td.darkcolor{
-     color: white;
-     background-color:#628ca6;
-   }
-    
+       
    th {
      border: 1px solid #dddddd;
      text-align: center;
@@ -332,7 +329,7 @@ picture.footheroPhoto img {
 .formreserv form {
     padding: 1.5rem;
     margin: 2%;
-    background-color: rgb(139, 96, 96);
+    background-color: rgb(216, 188, 168);
     max-width: 100%;
 }
 
