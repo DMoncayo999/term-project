@@ -48,8 +48,8 @@ nav ul li a {
 
 .trips div  {
    background: white;
-   padding: 1em;
-   padding-bottom: 0.5em;
+   padding: 1rem;
+   padding-bottom: 2rem;
 }
 
 .trips p {
@@ -82,16 +82,9 @@ nav ul li a {
 
 /*----------- TABLE ACTIVITIES --------------*/
 
-section.activeTab{
-    padding-left: 5%;
-}
-
-
 div.active {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    
 }
 
 

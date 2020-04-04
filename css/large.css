@@ -20,10 +20,6 @@ nav ul li a {padding: .6rem 1rem;}
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 0.5rem;
 }
-.trips div  {
-    padding: 1em;
-    padding-bottom: 0.5em;
- }
 
 div.townsInfo {
     display: grid;
@@ -51,11 +47,7 @@ div.townsInfo :nth-child(2) :nth-child(4) {
 div.active {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-    
 }
-
-
 
 /*-----------FORM-------*/
 form label.reserve {
