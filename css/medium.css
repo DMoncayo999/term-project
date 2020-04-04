@@ -78,19 +78,21 @@ nav ul li a {
     padding: 2%;
     
 }
+
+
 /*----------- TABLE ACTIVITIES --------------*/
+
+section.activeTab{
+    padding-left: 5%;
+}
+
 
 div.active {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     
     
-  }
-
-
-
-
-
+}
 
 
 

@@ -218,7 +218,7 @@ picture.heroPhoto img {
 form label.contact {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #6d4343;
     font-size: .8rem;
 }
 
@@ -249,6 +249,7 @@ form label.contact input {
 section.map {
     padding: 3%;
     background-color: rgb(163, 162, 162);
+    
 }
 section.map h2 {
     color: #9c2c13;
@@ -258,52 +259,63 @@ section.map h2 {
 }
 
 /*----------- TABLE ACTIVITIES --------------*/
+section.activeTab{
+    padding-top: 2rem;
+}
 
 thead th{
-    color:#000000;
+    color:#533737;
     font-size: 2em;
-    background:#7fb9c2;
-         
-   }
- 
+    font-family: Montserrat, sans-serif;
+    background:rgb(139, 192, 139);
+    padding: 8px;
+}
+tfoot th{
+    color:#000000;
+    font-size: .8rem;
+    background:rgb(139, 192, 139);
+    padding: 25px;
+  }
+
 div.active  {
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-row-gap: 25px;
-     font-family: Guru, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 25px;
+    font-family: Guru, sans-serif;
      
-     
-   }
+}
    
-   td {
-     border: 1px solid #dddddd;
-     text-align: center;
-     padding: 8px;
+td {
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
      
-   }
-       
-   th {
-     border: 1px solid #dddddd;
-     text-align: center;
-     padding: 8px;
-     color: white;
-     background-color: #628ca6;
-   }
- 
-   tr { 
-     background-color: #e7f0ed;
-     
-   }
-   tr:nth-child(odd) {
-     background-color: #e7ffed;
-   }
-   tfoot th{
-     color:#000000;
-     font-size: .8rem;
-     background:#7fb9c2;
-   }
+}
 
 
+tr { 
+    background-color: #daece6;
+     
+}
+
+tr:nth-child(odd) {
+    background-color: #beecca;
+}
+
+.bookBtn {
+    border: none;
+    text-decoration: none;
+    background: #809b38;
+    color: white;
+    font-size: .9rem;
+    padding: .75rem 1rem; 
+    margin: 2%;
+    width: 70%;
+     
+}
+.bookBtn:hover {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
 
 /*----------- FORM RESERVATION --------------*/
 .reservInfo h2 {
@@ -336,7 +348,7 @@ picture.footheroPhoto img {
 form label.reserve {
     display: block;
     padding-top: 1rem;
-    color: rgb(17, 17, 17);
+    color: #6d4343;
     font-size: .8rem;
     
 }

@@ -12,7 +12,6 @@ nav ul li a {padding: .6rem 1rem;}
 
 /*----------- MAIN --------------*/
 
-
 .trips img {
     width: 100%; 
 }
@@ -25,8 +24,6 @@ nav ul li a {padding: .6rem 1rem;}
     padding: 1em;
     padding-bottom: 0.5em;
  }
-
-
 
 div.townsInfo {
     display: grid;
@@ -51,6 +48,13 @@ div.townsInfo :nth-child(2) :nth-child(4) {
     width: 30%;
     
 }
+div.active {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
 
 
 /*-----------FORM-------*/
