@@ -27,7 +27,7 @@ function toggleMenu () {
 // GUIDES JSON FILE 
 let populateTowns = () => {
 
-const requestURL = 'guides.json';
+const requestURL = 'https://dmoncayo999.github.io/term-project/guides.json';
 
 fetch(requestURL)
   .then(function (response) {
