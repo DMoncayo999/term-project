@@ -44,10 +44,20 @@ div.townsInfo :nth-child(2) :nth-child(4) {
     width: 30%;
     
 }
-div.active {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
+
+/*----------- TABLE ACTIVITIES-------*/
+
+.activeNews img {
+   width: 500px;
+ }
+
+
+
+
+
+
+
 
 /*-----------FORM-------*/
 form label.reserve {

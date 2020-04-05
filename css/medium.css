@@ -79,14 +79,27 @@ nav ul li a {
     
 }
 
-
 /*----------- TABLE ACTIVITIES --------------*/
-
-div.active {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.activeNews {
+    background-color: rgb(236, 226, 225);
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
+.activeNews img {
+   width: 400px;
+   float: right;
+   border: 1px;
+   box-shadow: 0 0 15px gray;
+  
+}
+.activeNews p {
+    font-size: 1.5rem;
+}
+.activeNews h2 {
+    font-size: 2rem;
+}
 
 
 /*----------- FOOTER --------------*/

@@ -263,7 +263,7 @@ section.map h2 {
 /*----------- TABLE ACTIVITIES --------------*/
 section.activeTab{
     padding-top: 0.5rem;
-    padding-left: 0;
+    padding-left:5%;
 }
 
 .activeTab h1{
@@ -284,15 +284,8 @@ tfoot th{
     font-size: .8rem;
     background:rgb(139, 192, 139);
     padding: 25px;
-  }
-
-div.active  {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 25px;
-    
-     
 }
+
    
 td {
     border-collapse: collapse;
@@ -326,6 +319,39 @@ tr:nth-child(odd) {
 .bookBtn:hover {
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
+
+.activeNews {
+    width: 96%;
+    padding-top: 2%;
+}
+.activeNews p {
+    font-size: 1rem;
+    color:#533737;
+    font-family: Shadows Into Light, cursive;
+    font-style: italic;
+    text-shadow: .5px .5px .5px #000000;
+    font-kerning: .5rem;
+    letter-spacing: .2rem;
+    padding: 0;
+}
+.activeNews h2 {
+    font-size: 1.5rem;
+    color:#533737;
+    font-family: Shadows Into Light, cursive;
+    font-style: italic;
+    text-shadow: .5px .5px .5px #000000;
+    font-kerning: .5rem;
+    letter-spacing: .2rem;
+    padding: 0;
+}
+
+.activeNews img {
+    width: 100%;
+    border: 1px;
+    box-shadow: 0 0 10px gray;
+
+}
+
 
 /*----------- FORM RESERVATION --------------*/
 .reservInfo h2 {
