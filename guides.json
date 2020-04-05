@@ -1,0 +1,45 @@
+{
+    "guides": [
+      {
+        "name": "Peter",
+        "lastname": "Parker",
+        "certifcations": "Physical Education",
+        "yearsexpert": 8,
+        "email": "pparker12@hotmail.com",
+        "id": 1,
+        "biography": "Peter had been working in differents states in the United States and in Canada",
+        "photo": "images/guide1_200.png"
+      },
+      {
+        "name": "Natasha",
+        "lastname": "Romansky",
+        "certifications": "Nurse",
+        "yearsexpert": 4,
+        "email": "natyRomansky@gmail.com",
+        "id": 2,
+        "biography": "Nat is very optimist and keep us in good health condition.",
+        "photo": "images/guide2_200.png"
+      },
+      {
+        "name": "Leon",
+        "lastname": "Kumar",
+        "certifications": "Nurse",
+        "yearsexpert": 2,
+        "email": "natyRomansky@gmail.com",
+        "id": 2,
+        "biography": "Nat is very optimist and keep us in good health condition.",
+        "photo": "images/guide3_200.png"
+      },
+      {
+        "name": "Mariah",
+        "lastname": "Lane",
+        "certifications": "Nurse",
+        "yearsexpert": 5,
+        "email": "natyRomansky@gmail.com",
+        "id": 2,
+        "biography": "Nat is very optimist and keep us in good health condition.",
+        "photo": "images/guide4_200.png"
+      }
+      
+    ]
+}

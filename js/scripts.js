@@ -26,72 +26,31 @@ function toggleMenu () {
 
 // GUIDES JSON FILE 
 let populateTowns = () => {
-    // store the resource URL of the JSON
-    const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-    //use fetch() method to feed the required argument. First .then, returns a Promise. Second .then to work
-    //with the converted response data in JS
-    fetch(requestURL)
-      .then(function (response) {
-        return response.json();
-      })
-      .then( function (jsonObject) {
-        // console.table(jsonObject);   ----checking for valid response and data parsing---
-        //store the results of the converted response into an array
-    const towns = jsonObject['towns'];
-        //To produce the output. We create a loop
-        for (let i = 0; i < towns.length; i++ ) {
-          if (towns[i].name === "Preston" || towns[i].name === "Fish Haven" || towns[i].name === "Soda Springs") {
-            let card = document.createElement('section');
-            let h2 = document.createElement('h2');      
-            h2.textContent = towns[i].name; 
-            card.appendChild(h2); 
-            let h3 = document.createElement('h3');
-            h3.textContent = towns[i].motto;
-            card.appendChild(h3);
-            let p = document.createElement('p');      
-            p.innerHTML = 'Current Population: ' + towns[i].currentPopulation + '<br/><br/>Year Founded: ' 
-            + towns[i].yearFounded + '<br/><br/>Average Rainfall: ' + towns[i].averageRainfall;
-            card.appendChild(p);                                             
-            let image = document.createElement('img');   
-            image.setAttribute('src', 'images/' + towns[i].photo); 
-            image.setAttribute('alt', towns[i].name); 
-            card.appendChild(image);
+const requestURL = 'guides.json';
 
-            document.querySelector('.townsInfo').appendChild(card);
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then( function (jsonObject) {
+   
+    const prophets = jsonObject['prophets'];
+    
+    for (let i = 0; i < prophets.length; i++ ) {
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');      
+        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname; 
+        card.appendChild(h2); 
+        let p = document.createElement('p');      
+        p.innerHTML = 'Date of Birth: ' + prophets[i].birthdate + '<br/>Place of Birth: ' + prophets[i].birthplace;
+        card.appendChild(p);                                             
+        let image = document.createElement('img');   
+        image.setAttribute('src', prophets[i].imageurl);   
+        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order );  
+        card.appendChild(image);
+        document.querySelector('div.cards').appendChild(card);
         
-          }
-        }
-      })
-      .catch( error => console.log(error) );
-}
-
-/*let eventsPreston = () => {
- 
-  const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-
-  fetch(requestURL)
-    .then(function (response) {
-      return response.json();
-    })
-    .then( function (jsonObject) {
-      
-  const towns = jsonObject['towns'];
-      
-      for (let i = 0; i < towns.length; i++ ) {
-        if (towns[i].name === "Preston") {
-          let card = document.createElement('section');
-          let p = document.createElement('p');      
-          p.innerHTML = towns[0].events[0] +  '<br/><br/>' + towns[0].events[1] + '<br/><br/>' 
-          + towns[0].events[2];
-          card.appendChild(p);                                             
-         
-          document.querySelector('.townsEvents').appendChild(card);
-      
-        }
-      }
-    })
-    .catch( error => console.log(error) );
-} 
-
-*/
+     
+    }
+  })

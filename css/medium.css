@@ -78,6 +78,9 @@ nav ul li a {
     padding: 2%;
     
 }
+section.map {
+    padding-left: 5%;
+}
 
 /*----------- TABLE ACTIVITIES --------------*/
 .activeNews {
@@ -96,6 +99,7 @@ nav ul li a {
 }
 .activeNews p {
     font-size: 1.5rem;
+    margin-bottom: 0;
 }
 .activeNews h2 {
     font-size: 2rem;

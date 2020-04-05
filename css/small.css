@@ -129,11 +129,13 @@ picture.heroPhoto img {
 }
 .trips p {
     font-size: 2.3rem;
-    color:#533737;
     margin: 2%;
+    color:#533737;
     font-family: Shadows Into Light, cursive;
-    letter-spacing: 0.1rem;
-    padding: 0;
+    font-style: italic;
+    text-shadow: .5px .5px .5px #000000;
+    font-kerning: .5rem;
+    letter-spacing: .2rem;
 }
 
 .trips img {
@@ -172,7 +174,7 @@ picture.heroPhoto img {
     width: 75%;
 }
 .currentweather span {
-    color: red; 
+    color: rgb(233, 38, 38); 
     font-size: 1rem;
 }
 
@@ -249,9 +251,9 @@ form label.contact input {
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 section.map {
-    padding: 3%;
+    padding-left: 3%;
     background-color: rgb(163, 162, 162);
-    
+       
 }
 section.map h2 {
     color: #9c2c13;
@@ -270,7 +272,6 @@ section.activeTab{
     color: #176E7A;
     padding: 2%;
 }
-
 
 thead th{
     color:#533737;
@@ -333,6 +334,7 @@ tr:nth-child(odd) {
     font-kerning: .5rem;
     letter-spacing: .2rem;
     padding: 0;
+    margin-bottom: 10%;
 }
 .activeNews h2 {
     font-size: 1.5rem;
@@ -352,7 +354,6 @@ tr:nth-child(odd) {
 
 }
 
-
 /*----------- FORM RESERVATION --------------*/
 .reservInfo h2 {
     font-family: Montserrat, sans-serif;
@@ -363,7 +364,11 @@ tr:nth-child(odd) {
 .reservInfo p {
     font-family: Shadows Into Light, cursive;
     color: #533737;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: .5px .5px .5px #000000;
+    font-kerning: .5rem;
+    letter-spacing: .2rem;
     text-align: center;
  }
  .footherodiv {
@@ -416,30 +421,63 @@ form input.reservBtn {
 }
 
 /*------ JSON  GUIDES-------------*/
+.heropro {
+    position: relative;
+    width: 100%;
+}
+
+picture.heroPics img {
+    width:100%;
+    padding-bottom: 5%;
+}
+
+.staff h2 {
+    font-family: Montserrat, sans-serif;
+    color:#176E7A;
+    font-size: 2rem;
+    padding: 2%;
+
+}
+
+
 div.townsInfo {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 2%;
 }
 
 .townsInfo h2 {
-    font-family: McLaren;
-    color: #9c2c12;
+font-family: McLaren;
+color: #9c2c12;
 }
 
 .townsInfo h3{
-    font-family: Fira Sans;
-    color:  #af4642;
+font-family: Fira Sans;
+color:  #af4642;
 }
 
 .townsInfo section {
-    box-shadow: 5px 2px 5px rgb(162, 173, 128);
-    background-color: rgb(228, 250, 148);
-    text-align: center;
+box-shadow: 5px 2px 5px rgb(162, 173, 128);
+background-color: rgb(228, 250, 148);
+text-align: center;
 }
 .townsInfo img {
-    width: 100%;
+width: 100%;
+}
+
+.trendingNews p {
+color: blue;
+font-size: 1em;
+text-align: center;
+}
+.trendingNews img {
+width :200px; height: 112px;
+}
+
+.trendwrap h2 {
+padding-top: 1rem;
+color: #af4642;
 }
 
 
