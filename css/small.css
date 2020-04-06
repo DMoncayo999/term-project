@@ -124,7 +124,7 @@ picture.heroPhoto img {
 }
 
 .trips div{
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 .trips p {
     font-size: 2.3rem;
@@ -132,14 +132,15 @@ picture.heroPhoto img {
     color:#533737;
     font-family: Shadows Into Light, cursive;
     font-style: italic;
-    text-shadow: .5px .5px .5px #000000;
-    font-kerning: .5rem;
+    text-shadow: .5px .5px .5px gray;
+    font-kerning: auto;
     letter-spacing: .2rem;
 }
 
 .trips img {
     box-shadow: 5px 2px 5px rgb(162, 173, 128);
     width: 100%;
+    margin-bottom: 3%;
 }
 
 .tripswrap h2 {
@@ -329,8 +330,8 @@ tr:nth-child(odd) {
     color:#533737;
     font-family: Shadows Into Light, cursive;
     font-style: italic;
-    text-shadow: .5px .5px .5px #000000;
-    font-kerning: .5rem;
+    text-shadow: .5px .5px .5px gray;
+    font-kerning: auto;
     letter-spacing: .2rem;
     padding: 0;
     margin-bottom: 10%;
@@ -341,7 +342,7 @@ tr:nth-child(odd) {
     font-family: Shadows Into Light, cursive;
     font-style: italic;
     text-shadow: .5px .5px .5px #000000;
-    font-kerning: .5rem;
+    font-kerning: auto;
     letter-spacing: .2rem;
     padding: 0;
 }
@@ -366,7 +367,7 @@ tr:nth-child(odd) {
     font-size: 2rem;
     font-style: italic;
     text-shadow: .5px .5px .5px #000000;
-    font-kerning: .5rem;
+    font-kerning: auto;
     letter-spacing: .2rem;
     text-align: center;
  }
