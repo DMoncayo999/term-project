@@ -101,7 +101,7 @@ picture.heroPhoto img {
     color: white;
     text-shadow: 5px 5px 5px #000000;
     letter-spacing: 0.1rem;
-    top: 30%;
+    top: 20rem;
     padding: .8rem;
     
 }
@@ -265,7 +265,7 @@ section.map h2 {
 /*----------- TABLE ACTIVITIES --------------*/
 section.activeTab{
     padding-top: 0.5rem;
-    padding-left:5%;
+    padding-left:2%;
 }
 
 .activeTab h1{
