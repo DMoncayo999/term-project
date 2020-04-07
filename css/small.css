@@ -265,10 +265,11 @@ section.map h2 {
 /*----------- TABLE ACTIVITIES --------------*/
 section.activeTab{
     padding-top: 0.5rem;
-    padding-left:2%;
+    padding-left: 2%;
 }
 
-.activeTab h1{
+.activeTab h2{
+    font-size: 2rem;
     color: #176E7A;
     padding: 2%;
 }
@@ -295,6 +296,13 @@ td {
     font-family: Monserrat, sans-serif;
     font-size: 1rem;
 }
+td.one {
+    width: 40%;
+}
+td.two {
+    width:60%;
+}
+
 
 tr { 
     background-color: #daece6;
@@ -324,6 +332,7 @@ tr:nth-child(odd) {
 .activeNews {
     width: 96%;
     padding-top: 2%;
+    
 }
 .activeNews p {
     font-size: 1rem;
@@ -336,7 +345,7 @@ tr:nth-child(odd) {
     padding: 0;
     margin-bottom: 10%;
 }
-.activeNews h2 {
+.activeNews h3 {
     font-size: 1.5rem;
     color:#176E7A;
     font-family: Shadows Into Light, cursive;
