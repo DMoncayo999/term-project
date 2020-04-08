@@ -294,7 +294,9 @@ tfoot th{
     background:rgb(139, 192, 139);
     padding: 25px;
 }
-
+table .first .second .third {
+    width: 300px;
+}
    
 td {
     border-collapse: collapse;
@@ -309,7 +311,6 @@ td.one {
 td.two {
     width:60%;
 }
-
 
 tr { 
     background-color: #daece6;
@@ -444,13 +445,13 @@ form input.reservBtn {
 
 picture.heroPics img {
     width:100%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .staff h2 {
     font-family: Montserrat, sans-serif;
     color:#176E7A;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 2%;
 
 }
