@@ -105,7 +105,17 @@ section.map {
 .activeNews h2 {
     font-size: 2rem;
 }
+#first{
+    width: 400px;
+}
 
+#second { 
+    width: 400px;
+}
+
+#third {
+    width: 400px;
+}
 
 /*----------- FOOTER --------------*/
 
