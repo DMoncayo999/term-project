@@ -294,8 +294,16 @@ tfoot th{
     background:rgb(139, 192, 139);
     padding: 25px;
 }
-table .first .second .third {
-    width: 350px;
+#first{
+    width: 400px;
+}
+
+#second { 
+    width: 400px;
+}
+
+#third {
+    width: 400px;
 }
    
 td {
