@@ -7,8 +7,7 @@
         "yearsexpert": 8,
         "email": "pparker12@hotmail.com",
         "id": 1,
-        "biography": "Peter started his guiding career in college in Utah, and then committed to working close by after graduation. 
-        He came up to Idaho and worked with us on the Salmon, and he certainly made the right choice. He is a key member of our crew.",
+        "biography": "Peter started his guiding career in college in Utah, and then committed to working close by after graduation. He came up to Idaho and worked with us on the Salmon, and he certainly made the right choice. He is a key member of our crew.",
         "photo": "images/guide1_200.png"
       },
       {
@@ -18,8 +17,7 @@
         "yearsexpert": 4,
         "email": "natyRomansky@gmail.com",
         "id": 2,
-        "biography": "She is studying Biology. In her free time Nat likes to read different books, chat with her friends, 
-         and paint.",
+        "biography": "She is studying Biology. In her free time Nat likes to read different books, chat with her friends,  and paint.",
         "photo": "images/guide2_200.png"
       },
       {
@@ -29,8 +27,7 @@
         "yearsexpert": 2,
         "email": "leonkumar@gyahoo.com",
         "id": 3,
-        "biography": "Rafting has been a passion of his ever since he went to Boy Scout troop over a decade ago. Now he is one of our 
-        trainers here at Salmon River Adventures!.",
+        "biography": "Rafting has been a passion of his ever since he went to Boy Scout troop over a decade ago. Now he is one of our  trainers here at Salmon River Adventures!.",
         "photo": "images/guide3_200.png"
       },
       {
@@ -40,10 +37,8 @@
         "yearsexpert": 5,
         "email": "Lane_M@gmail.com",
         "id": 4,
-        "biography": " She attends Colorado College in Colorado Springs, and she is majoring in phsicology! In her free time here she 
-        likes to go hiking, spend time with her friends, and of course go down the Salmon River.",
+        "biography": " She attends Colorado College in Colorado Springs, and she is majoring in phsicology! In her free time here she likes to go hiking, spend time with her friends, and of course go down the Salmon River.",
         "photo": "images/guide4_200.png"
       }
-      
     ]
 }

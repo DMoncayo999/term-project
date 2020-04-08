@@ -25,7 +25,7 @@ function toggleMenu () {
 }
 
 // GUIDES JSON FILE 
-let populateTowns = () => {
+let populateStaff = () => {
 
 const requestURL = 'https://dmoncayo999.github.io/term-project/guides.json';
 
@@ -39,19 +39,35 @@ fetch(requestURL)
     
     for (let i = 0; i < guides.length; i++ ) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');      
-        h2.textContent = guides[i].name + ' ' + prophets[i].lastname; 
-        card.appendChild(h2); 
+
+        let h3 = document.createElement('h3');      
+        h3.textContent = guides[i].name + ' ' + guides[i].lastname; 
+        card.appendChild(h3); 
+
         let p = document.createElement('p');      
-        p.innerHTML = 'Date of Birth: ' + prophets[i].birthdate + '<br/>Place of Birth: ' + prophets[i].birthplace;
-        card.appendChild(p);                                             
+        p.innerHTML = 'Certifications: ' + guides[i].certifications + '<br/> Years of Experience: ' + guides[i].yearsexpert + ' <br/> Email:'
+         + guides[i].email + '<br/> Biography:' + guides[i].biography;
+        card.appendChild(p); 
+
         let image = document.createElement('img');   
-        image.setAttribute('src', prophets[i].imageurl);   
-        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order );  
+        image.setAttribute('src', guides[i].photo);   
+        image.setAttribute('alt', guides[i].name + ' ' + guides[i].lastname + ' - ' + guides[i].id );  
         card.appendChild(image);
-        document.querySelector('div.cards').appendChild(card);
-      
-     
+        document.querySelector('div.staffcard').appendChild(card);
     }
   })
 }
+/*"guides": [
+  {
+    "name": "Peter",
+    "lastname": "Parker",
+    "certifcations": "Wilderness First Responder and CPR",
+    "yearsexpert": 8,
+    "email": "pparker12@hotmail.com",
+    "id": 1,
+    "biography": "Peter started his guiding career in college in Utah, and then committed to working close by after graduation. 
+    He came up to Idaho and worked with us on the Salmon, and he certainly made the right choice. He is a key member of our crew.",
+    "photo": { "src" : "images/guide1_200.png", "alt": "alternative" } 
+  }
+]*/
+    
