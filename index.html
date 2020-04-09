@@ -20,11 +20,11 @@
 <link href="css/small.css" rel="stylesheet">
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
-<!-- <script src="js/weatherapi.js" ></script> -->
+<script src="js/weatherapi.js" ></script>
 <script src="js/scripts.js" ></script>
 <script>
  const weatherapiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83549,US&APPID=e133193565792698f423478349cebc85&units=imperial";  
-const callbacks = [ populateWeather ];
+ const callbacks = [ populateWeather ];
 </script>
      
 </head>
@@ -103,14 +103,12 @@ way to access these lodges is either by motorized boats, rafting trips, hiking, 
  </div>
 </section>
 
-<section class="currentweather">
-    <div>
-     <p><span id="name"></span></p>
-     <p><span id="description"></span></p>
-     <p><span id="icon"></span></p>
-     <p><span id="temperature"></span>&deg;F</p>
-    </div>
-</section>
+<div class="currentweather">
+     <div id="weatherCity"></div>
+     <div id="weatherLike"></div>
+     <div id="weatherIcon"></div>
+     <div id="weatherTemperature"></div>
+</div>
  
 <section id="contact">
    <div class="contactInfo">

@@ -169,16 +169,33 @@ picture.heroPhoto img {
 
 .currentweather {
     background: linear-gradient(to top right, #ffcccc 0%, #ffffff 100%);
-    padding: 0 0.5rem;
+    margin: 2%;
+    padding: .5rem 1.5rem 0.5rem;
     border: 1px;
     box-shadow: 0 0 10px gray;
     width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
 }
-.currentweather span {
-    color: rgb(233, 38, 38); 
-    font-size: 1rem;
+#weatherCity {
+    font-size: 2.5rem;
+    grid-area: 1 / 1 / 2 / 3;
 }
-
+#weatherLike {
+    font-size: 2rem;
+    grid-area: 2/1/3/3;
+}
+#weatherIcon {
+    grid-area: 3/1/4/2;
+}
+#weatherIcon img {
+    width: 70px;
+}
+#weatherTemperature {
+    font-size: 5rem;
+    grid-area: 3/2/4/3;
+}
 
 #contact {
     background-color: rgb(240, 250, 204);
