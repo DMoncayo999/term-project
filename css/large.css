@@ -12,10 +12,6 @@ nav ul li a {padding: .6rem 1rem;}
 
 /*----------- MAIN --------------*/
 
-picture.heroPhoto img {
-    padding-bottom: 1%;
-}
-
 .trips img {
     width: 100%; 
 }
@@ -27,6 +23,11 @@ picture.heroPhoto img {
 
 .currentweather {
     width: 30%;
+}
+
+div.staffcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 /*----------- TABLE ACTIVITIES-------*/

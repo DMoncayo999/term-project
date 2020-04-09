@@ -48,15 +48,14 @@ nav ul li a {
 }
 
 .trips div  {
-   background: white;
+   background: rgb(236, 226, 225);
    padding: 1rem;
    
 }
 
 .trips p {
-    font-size: 1.5em;
-    font-family: Shadows Into Light, cursive;
-    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    
 }
 
 .currentweather {
@@ -82,6 +81,14 @@ nav ul li a {
 section.map {
     padding-left: 5%;
 }
+
+div.staffcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-column-gap: 10px;
+}
+
 
 /*----------- TABLE ACTIVITIES --------------*/
 .activeNews {

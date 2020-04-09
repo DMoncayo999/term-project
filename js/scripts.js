@@ -40,19 +40,22 @@ fetch(requestURL)
     for (let i = 0; i < guides.length; i++ ) {
         let card = document.createElement('section');
 
+        let image = document.createElement('img');   
+        image.setAttribute('src', guides[i].photo);   
+        image.setAttribute('alt', guides[i].name + ' ' + guides[i].lastname + ' - ' + guides[i].id );  
+        card.appendChild(image);
+
         let h3 = document.createElement('h3');      
         h3.textContent = guides[i].name + ' ' + guides[i].lastname; 
         card.appendChild(h3); 
 
         let p = document.createElement('p');      
-        p.innerHTML = 'Certifications: ' + guides[i].certifications + '<br/> Years of Experience: ' + guides[i].yearsexpert + ' <br/> Email:'
-         + guides[i].email + '<br/> Biography:' + guides[i].biography;
+        p.innerHTML = '<span>Certifications: </span>' + guides[i].certifications + '<br/><span> Years of Experience:</span> ' 
+        + guides[i].yearsexpert + ' <br/> <span> Email: </span> '
+         + guides[i].email + '<br/><span> Biography:</span> ' + guides[i].biography;
         card.appendChild(p); 
 
-        let image = document.createElement('img');   
-        image.setAttribute('src', guides[i].photo);   
-        image.setAttribute('alt', guides[i].name + ' ' + guides[i].lastname + ' - ' + guides[i].id );  
-        card.appendChild(image);
+        
         document.querySelector('div.staffcard').appendChild(card);
     }
   })

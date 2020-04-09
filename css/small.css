@@ -102,8 +102,7 @@ picture.heroPhoto img {
     text-shadow: 5px 5px 5px #000000;
     letter-spacing: 0.1rem;
     top: 20rem;
-    right: 2rem;
-    padding: 0;
+    padding-left: .5rem;
     
 }
 
@@ -128,7 +127,7 @@ picture.heroPhoto img {
     padding-bottom: 2rem;
 }
 .trips p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin: 2%;
     color:#533737;
     font-family: Shadows Into Light, cursive;
@@ -146,7 +145,7 @@ picture.heroPhoto img {
 
 .tripswrap h3 {
     padding-left: 1.5rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     font-family: Montserrat, sans-serif;
     color:#176E7A;
     font-size: 1.8rem;
@@ -387,14 +386,15 @@ tr:nth-child(odd) {
     letter-spacing: .2rem;
     text-align: center;
  }
+
  .footherodiv {
     position: relative;
     width: 100%;
 }
 picture.footheroPhoto img {
     width:100%;
-    margin: 0;
 }
+ 
 .formreserv form {
     padding: 1.5rem;
     margin: 2%;
@@ -441,61 +441,39 @@ form input.reservBtn {
     position: relative;
     width: 100%;
 }
-
 picture.heroPics img {
     width:100%;
-    padding-bottom: 1%;
 }
-
 .staff h2 {
     font-family: Montserrat, sans-serif;
     color:#176E7A;
     font-size: 1.8rem;
     padding: 2%;
-
+}
+.staff p {
+    line-height: 1.5em;
+    padding: 2%;
+    margin-top:0;
 }
 
-
-div.townsInfo {
+div.staffcard {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 5px;
     margin: 2%;
 }
 
-.townsInfo h2 {
-font-family: McLaren;
-color: #9c2c12;
+.staffcard h3 {
+    font-family: Montserrat, sans-serif;
+    color:  #6d4343;
 }
-
-.townsInfo h3{
-font-family: Fira Sans;
-color:  #af4642;
+.staffcard span {
+    font-family: Guru, sans-serif;
+    color:  #6d4343;
 }
-
-.townsInfo section {
-box-shadow: 5px 2px 5px rgb(162, 173, 128);
-background-color: rgb(228, 250, 148);
-text-align: center;
+.staffcard span {
+    font-family: Montserrat, sans-serif;
 }
-.townsInfo img {
-width: 100%;
-}
-
-.trendingNews p {
-color: blue;
-font-size: 1em;
-text-align: center;
-}
-.trendingNews img {
-width :200px; height: 112px;
-}
-
-.trendwrap h2 {
-padding-top: 1rem;
-color: #af4642;
-}
-
 
 /*----------- FOOTER --------------*/
 
